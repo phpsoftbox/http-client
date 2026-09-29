@@ -15,13 +15,13 @@
     "require": {
         "php": "^8.5",
         "ext-curl": "*",
-        "phpsoftbox/http-message": "dev-master",
+        "phpsoftbox/http-message": "^1.0",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/http-message": "^2.0"
     },
     "require-dev": {
-        "phpsoftbox/cs-fixer": "^1.2.1",
+        "phpsoftbox/cs-fixer": "^1.2.2",
         "phpunit/phpunit": "^13.3"
     },
     "provide": {
@@ -42,6 +42,5 @@
         "cs:fix": "vendor/bin/psb-cs-fixer fix",
         "cs:check": "vendor/bin/psb-cs-fixer check --diff"
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
