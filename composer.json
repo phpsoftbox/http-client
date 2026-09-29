@@ -15,13 +15,13 @@
     "require": {
         "php": "^8.5",
         "ext-curl": "*",
+        "phpsoftbox/http-message": "dev-master",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/http-message": "^2.0"
     },
     "require-dev": {
         "phpsoftbox/cs-fixer": "^1.2.1",
-        "phpsoftbox/http-message": "dev-master",
         "phpunit/phpunit": "^13.3"
     },
     "provide": {
