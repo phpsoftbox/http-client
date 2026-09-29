@@ -62,5 +62,5 @@ $telegram = new \PhpSoftBox\Telegram\Api\TelegramClient(
 
 ## Требования
 
-- PHP 8.4+
+- PHP 8.5+
 - расширение `ext-curl`
